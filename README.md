@@ -6,7 +6,7 @@ This repository contains scripts associated with the publication "The human geno
 
 ### System Requirements
 
-- The analysis was performed on an Ubuntu PC workstation with 64 GB of RAM. Please ensure your system meets these hardware requirements, as the runtime of the scripts is several days.
+- The analysis was performed on an Ubuntu PC workstation with 64 GB of RAM. The runtime of the scripts is several days.
 
 ### Acquiring Sequencing Data
 
