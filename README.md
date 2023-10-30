@@ -32,7 +32,7 @@ Run the following commands to set up the `ET_env` Conda environment and activate
 
 ```bash
 conda env create -f supporting_files/ET_env.yml
-conda activate ET_env
+conda activate ET_env'''
 
 
 ### Conda Environment
