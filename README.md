@@ -26,6 +26,15 @@ This repository contains scripts associated with the publication "The human geno
 
 - Before running the scripts, you will need to manually edit a Python script to specify the paths of the repository, the location of the sequencing reads, and the analysis directory.
 
+## Setup
+
+Run the following commands to set up the `ET_env` Conda environment and activate it:
+
+```bash
+conda env create -f supporting_files/ET_env.yml
+conda activate ET_env
+
+
 ### Conda Environment
 
 - These analyses depend on the Conda package management system. Refer to the README file in the repository for detailed instructions on creating the necessary Conda environment.
