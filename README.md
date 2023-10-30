@@ -37,7 +37,14 @@ conda activate ET_env
 
 ### Conda Environment
 
-- These analyses depend on the Conda package management system. Refer to the README file in the repository for detailed instructions on creating the necessary Conda environment.
+## Setup
+
+Run the following commands to set up the `ET_env` Conda environment and activate it:
+
+```bash
+conda env create -f supporting_files/ET_env.yml
+conda activate ET_env
+
 - Additionally, some packages are installed using pip or apt-get, so please follow the installation instructions provided in the repository.
 
 
