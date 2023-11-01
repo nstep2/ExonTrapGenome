@@ -54,10 +54,8 @@ conda activate ET_env
 
 9. **Initialize the Project:**
    - Run `python ET_initialize.py` to set up the project directories for analysis.
-
-Following these steps will ensure that you have all the necessary files and environments in place to run the analyses for your molecular biology research project.
-
-
+     
+Navigate to the Code directory and read readme_ET.txt for isntructions on how to run the analyses.
 
 
 
