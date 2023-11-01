@@ -47,13 +47,13 @@ conda activate ET_env
    - Execute `bash ET_download_fastq.sh` to download the required data files into the `ET_seq_reads` folder. Note that this may require approximately 700 GB of available disk space and may take several hours, as data will be fetched from ENA (European Nucleotide Archive).
 
 7. **Download Additional Resources:**
-   - Run `bash ET_download_resources.sh` to download many of the cited resources needed by the scripts.
+   - Run `bash ET_download_resources.sh` to download many of the cited resources needed by the scripts. Approximently 150 GB will be downloaded.This takes several hours. 
 
 8. **Activate Conda Environment:**
    - Activate the Conda environment `ET_env`.
 
 9. **Initialize the Project:**
-   - Run `python ET_initialize.py` to set up the project for analysis.
+   - Run `python ET_initialize.py` to set up the project directories for analysis.
 
 Following these steps will ensure that you have all the necessary files and environments in place to run the analyses for your molecular biology research project.
 
