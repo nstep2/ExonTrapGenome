@@ -25,7 +25,7 @@ This repository contains scripts associated with the publication "The human geno
 To set up and run the analysis scripts, follow these steps:
 
 1. **Install Conda:**
-   - If not already installed, follow the instructions to install Conda on your system.
+   - If not already installed, install Conda on your system. 
 
 2. **Download the Installation Script:**
    - Download the script `install_ET.py` to a directory where you want to install the project.
