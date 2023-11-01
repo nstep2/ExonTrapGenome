@@ -41,17 +41,21 @@ To set up and run the analysis scripts, follow these steps:
 1. **Install Conda:**
    - If not already installed, follow the instructions to install Conda on your system.
 
-2. **Download the Script:**
-   - Download the script `install_ET.py` to a directory where you want to install the scripts.
+2. **Download the Installation Script:**
+   - Download the script `install_ET.py` to a directory where you want to install the project.
 
 3. **Run the Installation Script:**
-   - Execute `install_ET.py` to create the `ET_directory`. This will also download the necessary analysis scripts.
+   - Execute `install_ET.py` to create the `ET_directory` and download the analysis scripts.
 
 4. **Navigate to the Installation Scripts Directory:**
    - Change your working directory to the `install_scripts` folder.
 
 5. **Create Conda Environment:**
-   - Run `bash ET_create_env.sh` to create a Conda environment named `ET_env`.
+   - Run `bash ET_create_env.sh` to create a Conda environment named `ET_env`. Depending on you Conda setup it may work better to manually create the Conda envrinment using 
+```bash
+conda env create -f supporting_files/ET_env.yml
+conda activate ET_env
+```. 
 
 6. **Download Sequence Data:**
    - Execute `bash ET_download_fastq.sh` to download the required data files into the `ET_seq_reads` folder. Note that this may require approximately 700 GB of available disk space and may take several hours, as data will be fetched from ENA (European Nucleotide Archive).
