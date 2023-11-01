@@ -20,20 +20,6 @@ This repository contains scripts associated with the publication "The human geno
 - Enable the 'run in console's namespace' setting in Spyder.
 - Perform the analyses by running the scripts with file names starting with "workflow_." These scripts should be run sequentially, with 'workflow_1.py' being run first.
 
-### Configuration
-
-- Before running the scripts, you will need to manually edit a Python script to specify the paths of the repository, the location of the sequencing reads, and the analysis directory.
-
-## Setup
-
-Run the following commands to set up the `ET_env` Conda environment and activate it:
-
-```bash
-conda env create -f supporting_files/ET_env.yml
-conda activate ET_env
-```
-
-
 ## Getting Started
 
 To set up and run the analysis scripts, follow these steps:
@@ -74,16 +60,5 @@ Following these steps will ensure that you have all the necessary files and envi
 
 
 
-### Conda Environment
-
-## Setup
-
-Run the following commands to set up the `ET_env` Conda environment and activate it:
-
-```bash
-conda env create -f supporting_files/ET_env.yml
-conda activate ET_env
-
-- Additionally, some packages are installed using pip or apt-get, so please follow the installation instructions provided in the repository.
 
 
