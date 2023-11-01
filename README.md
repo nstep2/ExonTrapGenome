@@ -41,7 +41,7 @@ To set up and run the analysis scripts, follow these steps:
 ```bash
 conda env create -f supporting_files/ET_env.yml
 conda activate ET_env
-```. 
+```  
 
 6. **Download Sequencing Data:**
    - Execute `bash ET_download_fastq.sh` to download the required data files into the `ET_seq_reads` folder. Note that this may require approximately 700 GB of available disk space and may take several hours, as data will be fetched from ENA (European Nucleotide Archive).
